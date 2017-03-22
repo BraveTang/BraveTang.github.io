@@ -7,13 +7,21 @@
 
     
 
-    <title>读书 | </title>
+    <title>10.理解灵活奇特的C++ | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#引用
+
+引用是变量的别名，所有对引用的修改都会改变引用变量的值。
+创建引用时必须总是初识化它，通常会再声明引用是对其初始化，但是对于包含类而言，需要在构造函数初始化引用数据成员。
+在初始化引用之后无法改变引用所指的变量，而只能改变变量的值。
+无法声明引用的引用，或者指向引用的指针。
+类的数据成员可">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="读书"/>
+    <meta property="og:title" content="10.理解灵活奇特的C++"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -214,186 +222,135 @@
 
 
     <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（分类目录）</span>
         
-
-<div class="container main-container">
+            
     
-        <div class="">
-            <div class="row">
-                <ul class="tabs ">
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#readed">已读(3)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#reading">在读(1)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#wanted">想读(1)</a>
-                        </li>
-                    
-                </ul>
-            </div>
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
-            
-                <div id="readed" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s23139051.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">众妙之门：网站UI设计之道
-                                    </span>
-                                    <p>评分: 7
-                                        <a class="external-link right" href="http://book.douban.com/subject/20281463/" target="_blank">
 
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>推荐非UI人士了解UI阅读。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img5.douban.com/lpic/s11337059.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript模式
-                                    </span>
-                                    <p>评分: 8.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11506062/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>书很薄，但内容相当实用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s11373174.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript语言精粹
-                                    </span>
-                                    <p>评分: 9.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11874748/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>这是一本前端人员的基础书，强烈推荐阅读，而且越早看受益越多！</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="reading" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s27881888.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">网络游戏核心技术与实战
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/25850090/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="wanted" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s1113106.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">计算机程序的构造和解释
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/1148282/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-
-        </div>
         
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>10.理解灵活奇特的C++</h1>
+    
+
+
+            </div>
+            <time class="pink-link-context" datetime="2016-12-22T13:04:14.000Z"><a href="/2016/12/22/《C++高级编程》读书笔记/10.理解灵活奇特的C++/">2016-12-22</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>#引用</p>
+<ul>
+<li>引用是变量的别名，所有对引用的修改都会改变引用变量的值。</li>
+<li>创建引用时必须总是初识化它，通常会再声明引用是对其初始化，但是对于包含类而言，需要在构造函数初始化引用数据成员。</li>
+<li>在初始化引用之后无法改变引用所指的变量，而只能改变变量的值。</li>
+<li>无法声明引用的引用，或者指向引用的指针。</li>
+<li>类的数据成员可以是引用，如果不指向其他变量，引用就无法存在，因此必须在构造函数初始化器中初识化引用数据成员，而不是在构造函数体内。</li>
+<li>使用右值引用，可将常量作为参数传递给按右值引用传递参数的函数。</li>
+<li>只有在参数是简单的内建类型，其不需要修改参数的情况下，才应该使用按值传递。在其他所有情况下才能使用这一技巧。</li>
+<li>如果变量的作用域局限于函数或方法，绝不能返回变量的引用。</li>
+<li>如果不需要改变所指的地址，就应使用引用而不是指针。</li>
+<li>右值引用&amp;&amp;接受常量及临时值的初始化。</li>
+<li>移动语义是通过右值引用实现的，对类增加移动语义，需要实现移动构造函数和移动赋值运算符。用noexcept限定符，告诉编译器不会抛出异常。</li>
+<li>移动构造函数和移动赋值运算符都将数据成员的内存所有权从源对象移动到新对象，将源对象的数据成员设为空指针，以防对象的析构函数释放这个内存。</li>
+<li>移动构造函数和移动运算符的实现不需要任何内存分配，而复制构造函数和复制复制运算符需要内存分配，在某些情况下使用移动语义可以大幅度提高性能。</li>
+</ul>
+<p>#关键字的疑问</p>
+<ul>
+<li>关键字const应用于直接位于它左边的任何内容。</li>
+<li>引用默认const,无法改变引用所指的对象，无法创建一个引用的引用。</li>
+<li>将对象作为参数传递时，默认选择const引用，只有在明确需要修改对象时，才忽略const.</li>
+<li>使用constexpr关键字定义函数，将函数变成一个常量表达式。常量表达式在编译时计算。</li>
+<li>静态对象和静态方法，只有一个副本，这个副本存在于类的任何对象之外。</li>
+<li>函数或变量声明前加static指定内部（或静态）链接。或者使用匿名命名空间将变量或函数封装到一个没有名字的空间。</li>
+<li>extern关键字好像是static的反义词。将它后面的名称指定为外部链接。</li>
+<li>C++中static关键字的最终目的是创建离开和进入作用域时都可以保留值的局部变量。</li>
+<li>避免使用单独的静态变量，为了维护状态可以改用对象。</li>
+<li>不同源文件中非局部变量的初始化顺序是不确定的</li>
+</ul>
+<p>#类型和类型转换</p>
+<ul>
+<li>typedef为已ß有类型声明提供一个新名称。STL广泛使用typedef提供类型的简短名称。</li>
+<li>const_cast可以舍弃变量的常量特效的类型转换。</li>
+<li>static_cast显示的执行C++直接支持的转换。</li>
+<li>statc_cast无法将某种类型的指针转换成不相关的其他类型的指针，无法将某种类型的对象转换为另一种类型的对象，无法将const类型转换为non-const类型，无法将指针转换为int.</li>
+<li>使用reinterpret_cast要特别小心，因为在执行转换时不会执行任何类型检测。</li>
+<li>dynameic_cast为继承层次结构内的类型转换提供运行时检测，可用来转换指针或引用。它在运行时检测底层对象的类型信息，如果转换没有意义返回空指针或抛出std::bad_cast异常（用于引用）。</li>
+<li>由于运行时类型信息存储在对象的虚表中，所以使用dynameic_cast类至少有一个虚方法。</li>
+</ul>
+<p>#作用域解析</p>
+<ul>
+<li>任何不在名称空间，函数，花括号界定的块和类最后只中的名称都被认为在全局作用域中。</li>
+<li>C++11以来可以使用explicit关键字禁用编译器执行隐式转换。</li>
+<li>使用#ifndef机制或#pragma once来避免循环包含后多次包含头文件。</li>
+<li>避免使用C风格的变长参数列表。传递std::array、值矢量或者初始化列表会更好。也可使用variadic模板使用类型安全的变长参数列表。ß</li>
+</ul>
+
+                
+<p class="pink-link-context">
+    <a href="/2016/12/23/《C++高级编程》读书笔记/11.利用模板编写泛型代码/" rel="next" title="11.利用模板编写泛型代码">
+    上一篇：11.利用模板编写泛型代码
+  </a>
+</p>
+
+
+
+<p class="pink-link-context">
+    <a href="/2016/12/21/《C++高级编程》读书笔记/9.揭秘继承技术/" rel="next" title="9.揭秘继承技术">
+    下一篇：9.揭秘继承技术
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
 
 
     <section id="comment">
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/reading/index.html';
-                this.page.identifier = 'reading/index.html';
+                this.page.url = 'http://yoursite.com/2016/12/22/《C++高级编程》读书笔记/10.理解灵活奇特的C++/';
+                this.page.identifier = '2016/12/22/《C++高级编程》读书笔记/10.理解灵活奇特的C++/';
             };
             (function() {
                 var d = document,
@@ -409,7 +366,7 @@
     </section>
 
 
-    
+
 </div>
 
         <div class="fixed-action-btn float-sitemap">

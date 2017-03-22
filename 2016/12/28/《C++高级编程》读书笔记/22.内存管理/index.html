@@ -7,13 +7,21 @@
 
     
 
-    <title>读书 | </title>
+    <title>22.内存管理 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="-在现代C++中，应尽可能避免底层内存操作，而使用现代结构，例如容器和智能指针。
+#使用动态内存
+
+new不仅分配内存，还构建对象。
+通过指针可以自动引用数组，但并不是所有指针都是数组。#智能指针
+不要在使用旧的auto_ptr指针，而是使用shared_ptr和unique_ptr.
+shared">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="读书"/>
+    <meta property="og:title" content="22.内存管理"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -214,186 +222,107 @@
 
 
     <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（分类目录）</span>
         
-
-<div class="container main-container">
+            
     
-        <div class="">
-            <div class="row">
-                <ul class="tabs ">
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#readed">已读(3)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#reading">在读(1)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#wanted">想读(1)</a>
-                        </li>
-                    
-                </ul>
-            </div>
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
-            
-                <div id="readed" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s23139051.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">众妙之门：网站UI设计之道
-                                    </span>
-                                    <p>评分: 7
-                                        <a class="external-link right" href="http://book.douban.com/subject/20281463/" target="_blank">
 
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>推荐非UI人士了解UI阅读。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img5.douban.com/lpic/s11337059.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript模式
-                                    </span>
-                                    <p>评分: 8.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11506062/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>书很薄，但内容相当实用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s11373174.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript语言精粹
-                                    </span>
-                                    <p>评分: 9.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11874748/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>这是一本前端人员的基础书，强烈推荐阅读，而且越早看受益越多！</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="reading" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s27881888.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">网络游戏核心技术与实战
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/25850090/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="wanted" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s1113106.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">计算机程序的构造和解释
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/1148282/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-
-        </div>
         
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>22.内存管理</h1>
+    
+
+
+            </div>
+            <time class="pink-link-context" datetime="2016-12-28T14:27:10.000Z"><a href="/2016/12/28/《C++高级编程》读书笔记/22.内存管理/">2016-12-28</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>-在现代C++中，应尽可能避免底层内存操作，而使用现代结构，例如容器和智能指针。</p>
+<p>#使用动态内存</p>
+<ul>
+<li>new不仅分配内存，还构建对象。</li>
+<li>通过指针可以自动引用数组，但并不是所有指针都是数组。<br>#智能指针</li>
+<li>不要在使用旧的auto_ptr指针，而是使用shared_ptr和unique_ptr.</li>
+<li>shared_ptr和unique_ptr的区别于shared_ptr是引用计数的的智能指针。</li>
+<li>永远不要把内存分配的结果赋值给普通指针，不论使用什么内存分配方法，总是立即将分配的结果赋值给智能指针shared_ptr或uinque_ptr.</li>
+<li>如果编译器支持，应该总是使用make_unique()创建unique_ptr.</li>
+<li>绝不要使用shared_ptr来管理指向C风格数组的指针，通过unique_ptr管理C风格的数组，或者使用STL容器，而不是C风格的数组。</li>
+<li>如果程序使用智能指针时进行了赋值、赋值或作为参数按值传入函数，那么shared_ptr是完美的选择。</li>
+<li>weak_ptr可以包含由shared_ptr管理的内存引用。weak_ptr不拥有这个内存，所以不能阻止shared_ptr释放内存，weak_ptr离开作用域是不会销毁他指向的内存。然而，它可以用于判断内存是否已经被关联的shared_ptr释放了。</li>
+</ul>
+<p>#内存常见的陷阱</p>
+<ul>
+<li>解决分配不足的字符串：<br>1.使用C++风格的字符串，它可以自动处理与连接字符串关联的内存。<br>2.将缓冲区分配到堆上。</li>
+<li>避免使用旧的C风格的字符串和数组，他们没有提供任何保护，而要改用C++string和vector这样安全的现代结构，他们能够自动管理内存。</li>
+</ul>
+
+                
+<p class="pink-link-context">
+    <a href="/2016/12/30/《C++高级编程》读书笔记/23.多线程编程/" rel="next" title="23.多线程编程">
+    上一篇：23.多线程编程
+  </a>
+</p>
+
+
+
+<p class="pink-link-context">
+    <a href="/2016/12/28/《C++高级编程》读书笔记/20.自定义和扩展STL/" rel="next" title="20.自定义和扩展STL">
+    下一篇：20.自定义和扩展STL
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
 
 
     <section id="comment">
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/reading/index.html';
-                this.page.identifier = 'reading/index.html';
+                this.page.url = 'http://yoursite.com/2016/12/28/《C++高级编程》读书笔记/22.内存管理/';
+                this.page.identifier = '2016/12/28/《C++高级编程》读书笔记/22.内存管理/';
             };
             (function() {
                 var d = document,
@@ -409,7 +338,7 @@
     </section>
 
 
-    
+
 </div>
 
         <div class="fixed-action-btn float-sitemap">

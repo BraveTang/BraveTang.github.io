@@ -7,13 +7,19 @@
 
     
 
-    <title>读书 | </title>
+    <title>16.理解容器与迭代器 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#容器概述
+
+STL容器对元素使用值语义。在输入元素时保存元素的一份副本，通过赋值运算符给元素赋值，通过析构函数销毁元素。
+STL容器经常会调用元素的复制构造函数和赋值运算符。因此要保证这些操作的高效性，实现元素的移动语义也可以提高效率。
+只有顺序容器，关联容器和无序关联容器提供了迭代器。容器适配器">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="读书"/>
+    <meta property="og:title" content="16.理解容器与迭代器"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -214,186 +220,164 @@
 
 
     <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（分类目录）</span>
         
-
-<div class="container main-container">
+            
     
-        <div class="">
-            <div class="row">
-                <ul class="tabs ">
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#readed">已读(3)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#reading">在读(1)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#wanted">想读(1)</a>
-                        </li>
-                    
-                </ul>
-            </div>
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
-            
-                <div id="readed" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s23139051.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">众妙之门：网站UI设计之道
-                                    </span>
-                                    <p>评分: 7
-                                        <a class="external-link right" href="http://book.douban.com/subject/20281463/" target="_blank">
 
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>推荐非UI人士了解UI阅读。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img5.douban.com/lpic/s11337059.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript模式
-                                    </span>
-                                    <p>评分: 8.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11506062/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>书很薄，但内容相当实用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s11373174.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript语言精粹
-                                    </span>
-                                    <p>评分: 9.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11874748/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>这是一本前端人员的基础书，强烈推荐阅读，而且越早看受益越多！</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="reading" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s27881888.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">网络游戏核心技术与实战
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/25850090/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="wanted" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s1113106.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">计算机程序的构造和解释
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/1148282/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-
-        </div>
         
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>16.理解容器与迭代器</h1>
+    
+
+
+            </div>
+            <time class="pink-link-context" datetime="2016-12-25T13:18:12.000Z"><a href="/2016/12/25/《C++高级编程》读书笔记/16.理解容器与迭代器/">2016-12-25</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>#容器概述</p>
+<ul>
+<li>STL容器对元素使用值语义。在输入元素时保存元素的一份副本，通过赋值运算符给元素赋值，通过析构函数销毁元素。</li>
+<li>STL容器经常会调用元素的复制构造函数和赋值运算符。因此要保证这些操作的高效性，实现元素的移动语义也可以提高效率。</li>
+<li>只有顺序容器，关联容器和无序关联容器提供了迭代器。容器适配器和bitset类都不支持迭代元素。</li>
+<li>const_iterator和const_reverse_iterator提供了容器元素的只读访问。</li>
+</ul>
+<p>#顺序容器</p>
+<ul>
+<li>vector的头文件<vector>头文件中定义为一个带有两个类型的类模板：一个参数为要保存的元素类型，一个参数为分配器类型。</vector></li>
+<li>与真正的数组索引一样，vector上的operator[]没有提供边界检查功能。</li>
+<li>除了使用operator[]运算符外，可以通过at(),front(),back()访问vector元素。</li>
+<li>所有vector元素访问操作都是常量时间复杂度。</li>
+<li>对vector应用operator[]运算符通常会返回元素的引用，可以把这个引用放在赋值语句的左侧，如果对const vector对象应用operator[]运算符，就会返回一个对const元素引用，这个引用不能用作赋值的目标。</li>
+<li>vector的assing()方法删除所有现有元素，并添加任意数目的新元素。适合vector的重用。</li>
+<li>vector的swap()方法交换两个vector的内容，且具有常量时间复杂度。</li>
+<li>vector的比较，要求元素要支持比较运算符</li>
+<li>每个容器都定义了一个名为iterator的类型，来表示那个容器类型的迭代器。</li>
+<li>只要可能，尽量使用前递增而不使用后递增，因为前递增一般更高效，iter++必须返回一个新的迭代对象，而++iter只是对iter的引用。</li>
+<li>如果不需要修改vector中的元素，那么应该使用const_iterator.</li>
+<li>使用迭代器的原因：<br>1.可以在容器的任意位置插入，删除元素或元素序列。<br>2.可以使用STL算法。<br>3.通过迭代器顺序访问元素，比编制容器索引，单独检索每个元素的效率要高。</li>
+<li>pop_back()不会返回已删除的元素，如果要访问这个元素，必须首先通过back()获得这个元素。</li>
+<li>insert()方法可以在vector中任意位置插入元素，这个方法在迭代器指定位置添加一个或多个元素，将所有元素向后移动，给新元素腾出空间。</li>
+<li>erase()在vector()中的任意位置删除元素，通过clear()删除所有元素。</li>
+<li>所有的STL容器都包含了移动构造函数和移动赋值元素符。从而实现移动语义。</li>
+<li>vector内存分配方案：vector自动分配内存来保存插入的元素，而vector要求元素必须放在连续的内存中，由于不可能请求在当前内存块尾部添加内存，因此每次vector申请更多内存是，都要在另一个位置分配一个新的更大的内存块，然后将所有元素复制/移动到新的内存块。这个过程非常耗时，因此vector在执行重分配时，都会分配比所需内存更多的嫩草，以尽量避免这个复制转移过程。</li>
+<li>通过控制vector执行内存重分配，来关注效率。</li>
+<li>重分配会使用引用vector内元素的所有迭代器失效。</li>
+<li>size()返回vector元素个数，capacity()返回重分配之前可以保存的元素的个数。empty()查询vector是否为空。verctor可以为空，但容量不能为0.</li>
+<li>为元素预留空间改变的是容量，而非大小。</li>
+<li>vector<bool>特化用单个位来存储”bool数组”，从而节省空间。</bool></li>
+<li>由于vector<bool>返回的引用实际上是代理，所以不能取地址，获取指向容器中实际元素的指针。</bool></li>
+<li>除非需要使用动态大小的位字段，否则应避免使用vector<bool>,而使用bitset</bool></li>
+<li>和vector与list相比，deque使用非常少。</li>
+<li>list支持任意位置的常量时间的元素插入和删除操作，但是访问单独元素的速度较慢(线性时间)。</li>
+<li>list访问元素的方法仅有front()和back(),这个两个方法的复杂度都是常量时间。其他元素都必须通过迭代器访问。</li>
+<li>list迭代器是双向的。不像vector那样提供随机访问，不能精心加减操作和其他指针运算。</li>
+<li>list只要找到正确的操作位置，所有这些方法(clear()除外)的复杂度都是常量时间。</li>
+<li>list不公开底层内存模型。</li>
+</ul>
+<p>#容器适配器</p>
+<ul>
+<li>STL提供3钟容器适配器：queue、prority_queue、stack.每种适配器都是对一种顺序容器的包装。</li>
+<li>适配器没有提供迭代器，也没有听过同时插入或删除多个元素的能力。</li>
+<li>queue的pop()不会返回弹出的元素，如果需要获得一份元素副本，必须首先通过front()获得这个元素。</li>
+<li>priority_queue的头元素时优先级最高的，默认情况下优先级是通过oprator&lt;运算符判断的，比其他元素“小”的元素的优先级比其他元素低。</li>
+</ul>
+<p>#关联容器</p>
+<ul>
+<li>与顺序容器不同，关联容器不会采用线性方式保存元素，相反，关联容器将键映射到值上。</li>
+<li>通常关联容器的插入，删除和查找时间是相等的。</li>
+<li>STL提供4个关联容器：map,multimap,multiset和4个无序的关联容器：unordered_map,unordered_multimap,unordered_set,unordered_multiset.</li>
+<li>pair是一个类模板，将两个可能属于不同类型的值组合起来。通过frist和second公共数据成员访问这个两个值。</li>
+<li>工具函数mark_pair()用于从两个值构造一个pair.</li>
+<li>在pair中使用一般指针是危险的，因为pair复制构造函数和赋值运算符值对指针类型进行浅复制和赋值。然而，在pair保存shared_ptr这样的智能指针是安全的ß</li>
+<li>map保存的是键/值对，而不是只保存值，插入、查找和删除操作都是基于键的，值只是附属品。</li>
+<li>map根据键元素排序存储，因此插入，删除，查找的复杂度都是对数时间。</li>
+<li>map插入不需要指定位置，map内部会判定要保存新元素的位置，只需提供键和值即可。</li>
+<li>map中键是唯一的，需要指出多个带有一个键的元素，可以使用map，把另一个容器用作键，或使用multimap.</li>
+<li>可以通过非const迭代器修改元素值，但是如果试图修改元素的键(即使通过非const的迭代器修改)，编译器会生成一个错误，因为修改键会破坏map中元素的排序。</li>
+<li>mulitimap是一个允许多个元素使用同一个键的map. multimap不提供operator[],在其执行插入操作总是成功。</li>
+<li>set保存的不是键值对，值本身就是键。</li>
+</ul>
+<p>#无序关联容器/哈希表</p>
+<ul>
+<li>C++标准为指针和所有基本数据类型提供了哈希函数。如果要使用的键类型没有可用的标准哈希函数，就必须实现自己的哈希函数。</li>
+<li>unordered_multimap允许插入相同的键值对，如果想要避免这种冗余，必须在插入新元素之前做显示检查。</li>
+</ul>
+<p>#其他容器</p>
+<ul>
+<li>std::begin()和std::end()函数仅用于基于堆栈的c风格数组，不能用于基于堆的c风格数ß组。</li>
+<li>可将string看成字符的顺序容器。</li>
+<li>STL提供了名为istream_iterator和ostream_iterator的特殊迭代器。</li>
+<li>bitset是固定长度位序列的抽象。</li>
+</ul>
+
+                
+<p class="pink-link-context">
+    <a href="/2016/12/26/《C++高级编程》读书笔记/17.掌握STL算法/" rel="next" title="17.掌握STL算法">
+    上一篇：17.掌握STL算法
+  </a>
+</p>
+
+
+
+<p class="pink-link-context">
+    <a href="/2016/12/25/《C++高级编程》读书笔记/15.C++标准库概述/" rel="next" title="15.C++标准库概述">
+    下一篇：15.C++标准库概述
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
 
 
     <section id="comment">
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/reading/index.html';
-                this.page.identifier = 'reading/index.html';
+                this.page.url = 'http://yoursite.com/2016/12/25/《C++高级编程》读书笔记/16.理解容器与迭代器/';
+                this.page.identifier = '2016/12/25/《C++高级编程》读书笔记/16.理解容器与迭代器/';
             };
             (function() {
                 var d = document,
@@ -409,7 +393,7 @@
     </section>
 
 
-    
+
 </div>
 
         <div class="fixed-action-btn float-sitemap">

@@ -7,13 +7,20 @@
 
     
 
-    <title>读书 | </title>
+    <title>7.熟悉类和对象 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#编写类
+
+最好将不改变对象的成员函数声明为const
+类的默认访问说明符是private,而结构的默认访问说明符是public.
+每个普通方法调用都会传递一个指向对象的指针，这就是称为”隐藏”参数的this指针
+如果用new为某个对象分配了内存，使用完对象后，要用delete销毁对象，或者使用智能">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="读书"/>
+    <meta property="og:title" content="7.熟悉类和对象"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -214,186 +221,124 @@
 
 
     <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（分类目录）</span>
         
-
-<div class="container main-container">
+            
     
-        <div class="">
-            <div class="row">
-                <ul class="tabs ">
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#readed">已读(3)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#reading">在读(1)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#wanted">想读(1)</a>
-                        </li>
-                    
-                </ul>
-            </div>
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
-            
-                <div id="readed" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s23139051.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">众妙之门：网站UI设计之道
-                                    </span>
-                                    <p>评分: 7
-                                        <a class="external-link right" href="http://book.douban.com/subject/20281463/" target="_blank">
 
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>推荐非UI人士了解UI阅读。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img5.douban.com/lpic/s11337059.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript模式
-                                    </span>
-                                    <p>评分: 8.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11506062/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>书很薄，但内容相当实用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s11373174.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript语言精粹
-                                    </span>
-                                    <p>评分: 9.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11874748/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>这是一本前端人员的基础书，强烈推荐阅读，而且越早看受益越多！</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="reading" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s27881888.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">网络游戏核心技术与实战
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/25850090/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="wanted" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s1113106.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">计算机程序的构造和解释
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/1148282/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-
-        </div>
         
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>7.熟悉类和对象</h1>
+    
+
+
+            </div>
+            <time class="pink-link-context" datetime="2016-12-19T12:20:17.000Z"><a href="/2016/12/19/《C++高级编程》读书笔记/7.熟悉类和对象/">2016-12-19</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>#编写类</p>
+<ul>
+<li>最好将不改变对象的成员函数声明为const</li>
+<li>类的默认访问说明符是private,而结构的默认访问说明符是public.</li>
+<li>每个普通方法调用都会传递一个指向对象的指针，这就是称为”隐藏”参数的this指针</li>
+<li>如果用new为某个对象分配了内存，使用完对象后，要用delete销毁对象，或者使用智能指针自动管理内存。</li>
+<li>如果没有使用智能指针，当删除了指针所指的对象时，最好将指针重置为null，这样做可以防止在删除对象后意外使用这个指针，以便调试。</li>
+</ul>
+<p>#对象的生命周期</p>
+<ul>
+<li>对象的的生命周期涉及3个活动：创建、销毁和赋值。</li>
+<li>当创建对象时，同时创建了内嵌的对象。</li>
+<li>无论在堆栈中还是在类中什么指针，但没有立即初始化对象，都应该将其初识化nullptr.</li>
+<li>在类中可以提供多个构造函数，以实现构造函数的重载。</li>
+<li>在一个构造函数中执行另一个构造函数，其实是新建一个临时的未命名对象。而不是调用构造函数以初识化对象。 C++支持委托构造函数，允许构造函数调用同一个类的其他构造函数。</li>
+<li>在堆栈中创建对象时，调用默认构造函数不需要使用圆括号。</li>
+<li>默认构造函数与无参构造函数是一回事。</li>
+<li>使用default关键字可以生产一个标准的由编译器生成的默认构造函数eg: MyClass() = defualt;</li>
+<li>定义一个只有静态方法的类，这个类没有任何构造函数，也不想让编辑器生成默认构造函数，可以显示删除默认构造函数：MyClass() = delete;</li>
+<li>构造函数初识化器(ctor-initializer)允许在创建数据成员时执行初始化，某些数据类型必须在ctor-initializer中初始化：<br>1.const成员<br>2.引用数据成员<br>3.没有默认构造函数的对象数据成员<br>4.没有默认构造函数的基类</li>
+<li>cotor-iniitalizer初始化数据成员的顺序是按照类定义中声明的顺序而不是ctor-initializer列表中的顺序。</li>
+<li>当函数或方法返回对象是，也会调用复制构造函数，编译器使用复制构造函数创建一个临时的，没有名称的对象。可将传递参数作为const引用，从而避免调用复制构造函数的开销。</li>
+<li>为了提高性能，最好按const引用传递而不是按值传递对象。</li>
+<li>初识化列表构造函数将std::initializer_list<t>作为第一个参数，并且没有任何其他参数，或者其他参数具有默认值。C++STL完成支持初识化列表构造函数。</t></li>
+<li>C++11开始允许定义类时直接初识化成员变量，之前只有在构造函数或ctor-initializer中或只有 static const整型成员变量才能在类定义中初始化。</li>
+<li>委托构造函数允许构造函数调用同一个类的其他构造函数，但必须放在构造函数初识化器中，且必须是列表中唯一的成员初识化器，要注意构造函数递归。</li>
+<li>当堆栈中的对象超出作用域时，意味着当前的函数、方法或其他代码块结束(遇到花括号)，对象会被销毁。</li>
+<li>堆栈上对象的销毁顺与声明顺序(建构顺序)相反；数据成员对象的销毁顺序与其在类的声明类型顺序相反。</li>
+<li>C++为所有的类提供了执行赋值的方法，这个方法叫做赋值运算符，其名称为operator= ,实际上是为类重载了=运算符。</li>
+<li>如果没有自己编写赋值运算符，C++自动生成一个，默认的C++赋值运算与默认赋值行为相同：以递归方式用源对象的每个数据成员赋值给目标。</li>
+<li>赋值运算符可返还任意类型，返回被调用的对象的引用是客户希望这样的。</li>
+<li>复制构造函数只在初始化才调用，此时目标对象还没有有效的值。赋值运算符可以改下对象的当前值</li>
+<li>C++允许将对象的值赋给自身，所有赋值运算符都返回*this.</li>
+<li>声明时会使用复制构造函数，赋值语句会使用赋值运算符。</li>
+</ul>
+
+                
+<p class="pink-link-context">
+    <a href="/2016/12/21/《C++高级编程》读书笔记/8.掌握类和对象/" rel="next" title="8.掌握类和对象">
+    上一篇：8.掌握类和对象
+  </a>
+</p>
+
+
+
+<p class="pink-link-context">
+    <a href="/2016/12/19/《C++高级编程》读书笔记/6.设计可重用代码/" rel="next" title="6.设计可重用代码">
+    下一篇：6.设计可重用代码
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
 
 
     <section id="comment">
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/reading/index.html';
-                this.page.identifier = 'reading/index.html';
+                this.page.url = 'http://yoursite.com/2016/12/19/《C++高级编程》读书笔记/7.熟悉类和对象/';
+                this.page.identifier = '2016/12/19/《C++高级编程》读书笔记/7.熟悉类和对象/';
             };
             (function() {
                 var d = document,
@@ -409,7 +354,7 @@
     </section>
 
 
-    
+
 </div>
 
         <div class="fixed-action-btn float-sitemap">

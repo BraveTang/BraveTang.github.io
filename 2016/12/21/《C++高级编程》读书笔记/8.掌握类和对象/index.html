@@ -7,13 +7,20 @@
 
     
 
-    <title>test hexo | </title>
+    <title>8.掌握类和对象 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#对象的动态内存分配
+
+如果为对象动态分配了内存，就析构函数中释放内存。
+在析构函数中最好只释放内存或者清理其他资源。
+无论什么时候在类中动态分配了内存，都应该编写字节的复杂构造函数和赋值运算符，以提供深层的内存复制。
+在任何赋值运算符中，第一行都应该是自赋值检测，自赋值检测不仅仅为了效率，也为了正">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="test hexo"/>
+    <meta property="og:title" content="8.掌握类和对象"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -178,15 +185,15 @@
 
             <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/读书笔记/">
-                    读书笔记 <span class="right">2 篇</span></a>
+                    读书笔记 <span class="right">25 篇</span></a>
                 </a>
             </li>
 
         
 
             <li class="collapse-level-1" collapse-level="1">
-                <a class="no-padding" href="/categories/读书笔记/C-高级编程/">
-                    C-高级编程 <span class="right">1 篇</span></a>
+                <a class="no-padding" href="/categories/读书笔记/C-Plus-Plus高级编程/">
+                    C-Plus-Plus高级编程 <span class="right">25 篇</span></a>
                 </a>
             </li>
 
@@ -222,7 +229,7 @@
             
     
     
-    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a>
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
 
         
@@ -239,12 +246,12 @@
             <div class="article-title">
                 
     
-        <h1>test hexo</h1>
+        <h1>8.掌握类和对象</h1>
     
 
 
             </div>
-            <time class="pink-link-context" datetime="2017-03-21T16:46:44.000Z"><a href="/2017/03/22/test-hexo/">2017-03-22</a></time>
+            <time class="pink-link-context" datetime="2016-12-21T07:47:21.000Z"><a href="/2016/12/21/《C++高级编程》读书笔记/8.掌握类和对象/">2016-12-21</a></time>
 
             <span id="busuanzi_container_page_pv" class="read-times-container">
     <i class="fa fa-eye"></i>
@@ -254,7 +261,7 @@
             
     <div class="tags-row">
         
-            <a href="/tags/note/" class="chip pink lighten-1">note</a>
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
         
     </div>
 
@@ -265,19 +272,81 @@
 
 
             <div class="entry pink-link-context">
-                
+                <p>#对象的动态内存分配</p>
+<ul>
+<li>如果为对象动态分配了内存，就析构函数中释放内存。</li>
+<li>在析构函数中最好只释放内存或者清理其他资源。</li>
+<li>无论什么时候在类中动态分配了内存，都应该编写字节的复杂构造函数和赋值运算符，以提供深层的内存复制。</li>
+<li>在任何赋值运算符中，第一行都应该是自赋值检测，自赋值检测不仅仅为了效率，也为了正确性。</li>
+<li>赋值运算符中，必须重新分配之前释放的所有内存，否则会造成内存泄露。</li>
+<li>只要类动态分配了内存，就应该编写析构函数，复制构造函数和赋值运算符。</li>
+<li>赋值构造函数与赋值运算符十分相似，因此，将通用任务放在辅助函数中避免重复代码。</li>
+<li>显式地将operator=和复制构造函数标记为delete，可禁止其他人复制对象或者为对象赋值。</li>
+</ul>
+<p>#不同的数据成员类型</p>
+<ul>
+<li>static数据成员(类的所有对象共享)是属于类而不是对象的数据成员，可当作类的全局变量</li>
+<li>static类成员，不仅要在类定义中列出，还需要在源文件中为其分配内存。</li>
+<li>实现静态的get/set方法来在方法外访问静态数据成员。</li>
+<li>类中的数据成员可以声明为const，意味着在创建并初始化之后，数据成员的值不能在改变</li>
+<li>类与类之前存在相互依赖关系，即存在循环引用关系，无法用普通的#include解决，可在其中一个头文件中使用前置声明。</li>
+<li>在初识化一个引用之后，不能改变引用的对象，因此不可能在赋值运算符中对引用赋值。</li>
+<li>常量引用和非常量引用之间存在一个重要差别：常量引用数据成员只能用于对象上的常量方法。</li>
+</ul>
+<p>#与方法有关的更多内容</p>
+<ul>
+<li>如果方法没有访问特定的对象的信息，可以声明为静态方法。</li>
+<li>将方法标记为const,就是与客户代码立下契约，陈诺不会再方法内改变对象内部的值。</li>
+<li>const的工作原理就是将方法内用到的数据成员都标记为const引用，因此试图修改数据成员，编译会报错。</li>
+<li>非const对象可以调用const方法和非const方法，但const对象只能调用const方法。</li>
+<li>析构函数不能被标记为const,因为const对象也会被销毁，他们的析构函数会被调用。</li>
+<li>将变量声明为mutable,告诉编译器在const()方法中允许改变这个值。</li>
+<li>可以根据const重载方法，可以编写两个名称相同，参数相同的方法，一个是const,一个是非const</li>
+<li>任何默认参数能做到的事情，都可以用方法重载做到。</li>
+<li>如果编写了内联函数或方法，应该将定义与原型一起放在头文件中。</li>
+<li>编译器在内联方法或函数之前，会考虑代码的膨胀指数，不会内联任何没有效益的方法。</li>
+</ul>
+<p>#嵌套类</p>
+<ul>
+<li>可以使用类型别名重命名将作用于限定名称重名为容易管理的名称，如：using SCell = Spreadsheet::SpreadsheetCell;</li>
+<li>嵌套类只使用与微小的类。</li>
+</ul>
+<p>#类内的枚举类型</p>
+<ul>
+<li>如果想在类内定义许多常量，应该使用枚举类型而不是一组#define,如：enum classe Colors{Red = 1, Green, Blue, Yellow};</li>
+</ul>
+<p>#友元</p>
+<ul>
+<li>C++允许某个类将其他类、其他类的成员函数或非成员函数声明为友元，友元可以访问类的protected,private数据成员和方法。</li>
+<li>类、方法或函数不能将自身声明为其他类的友元并访问这些类的非公有名称。</li>
+<li>友元可以违反封装的原则，将类的内部暴露给其他类或者函数。只有在特定情况下(运算符重载)才应该使用他。</li>
+</ul>
+<p>#运算符重载</p>
+<ul>
+<li>运算符重载是函数重载的一种形式，函数重载对函数的返回类型没有要求。</li>
+<li>使用explicit关键字标记构造函数，可以禁止隐式转换。但只能在类定义中使用，只适用于一个参数的构造函数。</li>
+<li>全局运算符重载，实现访问类中的private数据成员，因此必须是类的友元。</li>
+<li>简写运算符是基本算术运算符和赋值运算符的结合。</li>
+<li>比较运算符应该是全局友元函数，这样可以在运算符的左边和右边使用隐身转换，且返回值都是bool</li>
+<li>提供运算符重载，将其作为向类的客户提供的服务。</li>
+</ul>
+<p>#创建稳定的接口</p>
+<ul>
+<li>使用接口类和实现类，可以创建清晰的接口，并隐藏所有的实现细节，从而得到稳定的接口。基本原则是未想要编写的每个类定义两个类：接口类和实现类。实现类与已编写的类相同，接口类给出与实现类一样的public方法，但只有一个数据成员–指向实现类的一个指针。</li>
+</ul>
+
                 
 <p class="pink-link-context">
-    <a href="/2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/" rel="next" title="1.C++与STL速成">
-    上一篇：1.C++与STL速成
+    <a href="/2016/12/21/《C++高级编程》读书笔记/9.揭秘继承技术/" rel="next" title="9.揭秘继承技术">
+    上一篇：9.揭秘继承技术
   </a>
 </p>
 
 
 
 <p class="pink-link-context">
-    <a href="/2017/03/21/hello-world/" rel="next" title="Hello World">
-    下一篇：Hello World
+    <a href="/2016/12/19/《C++高级编程》读书笔记/7.熟悉类和对象/" rel="next" title="7.熟悉类和对象">
+    下一篇：7.熟悉类和对象
   </a>
 </p>
 
@@ -295,8 +364,8 @@
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/2017/03/22/test-hexo/';
-                this.page.identifier = '2017/03/22/test-hexo/';
+                this.page.url = 'http://yoursite.com/2016/12/21/《C++高级编程》读书笔记/8.掌握类和对象/';
+                this.page.identifier = '2016/12/21/《C++高级编程》读书笔记/8.掌握类和对象/';
             };
             (function() {
                 var d = document,

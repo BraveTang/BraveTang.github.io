@@ -7,13 +7,23 @@
 
     
 
-    <title>读书 | </title>
+    <title>15.C++标准库概述 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#编码原则
+
+使用模板
+使用运算符重载
+
+#C++标准库概述
+
+C++string实际上是base_string模板char实例化的typedef名称。
+C++标准库包含：字符串、正则表达式、I/O流、智能指针、异常、数学工具、时间工具、随机数、初识化列表、Pair和Tuple、函数对象、多线程、类">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="读书"/>
+    <meta property="og:title" content="15.C++标准库概述"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -214,186 +224,120 @@
 
 
     <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（分类目录）</span>
         
-
-<div class="container main-container">
+            
     
-        <div class="">
-            <div class="row">
-                <ul class="tabs ">
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#readed">已读(3)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#reading">在读(1)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#wanted">想读(1)</a>
-                        </li>
-                    
-                </ul>
-            </div>
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
-            
-                <div id="readed" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s23139051.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">众妙之门：网站UI设计之道
-                                    </span>
-                                    <p>评分: 7
-                                        <a class="external-link right" href="http://book.douban.com/subject/20281463/" target="_blank">
 
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>推荐非UI人士了解UI阅读。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img5.douban.com/lpic/s11337059.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript模式
-                                    </span>
-                                    <p>评分: 8.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11506062/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>书很薄，但内容相当实用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s11373174.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript语言精粹
-                                    </span>
-                                    <p>评分: 9.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11874748/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>这是一本前端人员的基础书，强烈推荐阅读，而且越早看受益越多！</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="reading" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s27881888.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">网络游戏核心技术与实战
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/25850090/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="wanted" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s1113106.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">计算机程序的构造和解释
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/1148282/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-
-        </div>
         
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>15.C++标准库概述</h1>
+    
+
+
+            </div>
+            <time class="pink-link-context" datetime="2016-12-25T07:51:26.000Z"><a href="/2016/12/25/《C++高级编程》读书笔记/15.C++标准库概述/">2016-12-25</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>#编码原则</p>
+<ul>
+<li>使用模板</li>
+<li>使用运算符重载</li>
+</ul>
+<p>#C++标准库概述</p>
+<ul>
+<li>C++string实际上是base_string模板char实例化的typedef名称。</li>
+<li>C++标准库包含：字符串、正则表达式、I/O流、智能指针、异常、数学工具、时间工具、随机数、初识化列表、Pair和Tuple、函数对象、多线程、类型特质、STL</li>
+</ul>
+<p>#STL</p>
+<ul>
+<li>C++STL容器是同构的：每个容器只允许一种类型的元素。</li>
+<li>C++中的vector相当与动态数组，这个数组会随着保存元素数目的变化自动增长或收缩。</li>
+<li>list是一个双向链表的数据结构，其元素不一定保存在连续内存中，每个元素都指定了如何在list中找到前一个或后一个元素。</li>
+<li>list性能特征和vector相反，list提供了较慢的元素查找和访问，而找到相应的位置后插入和删除却很快。</li>
+<li>forward_list单向链表只支持前向迭代。</li>
+<li>如果需要在两头快速插入或删除元素，还要求快速访问所有元素，应该用deque而不是vector</li>
+<li>array总是知道自身大小，不会自动转换为指针类型，没有通过插入和删除操作。因为其大小固定运行array在堆栈上分配内存。</li>
+<li>verctor、list、deque、array、forward_list容器称为序列容器，因为他们保存的是元素序列</li>
+<li>queue队列标准的先入先出(FIFO)语义。</li>
+<li>priority_queue优先队列，每个元素都有一个优先级，元素按照优先顺序从队列中移除。</li>
+<li>stack标准的后入先出(FILO)</li>
+<li>queue、priority_queue和stack容器都是容器适配器。</li>
+<li>当需要保证元素顺序，插入删除操作的数目和查找操作的数目接近，需要尽可能的优化两种操作性能时，应该使用set.</li>
+<li>set和map容器都是关联容器，因为他们关联了键和值。这些容器会对元素进行排序，因此这些容器称为排序或有序关联容器。</li>
+<li>C++标准库提供了bitset类，这个类抽象了这些为字段的操作。</li>
+<li>泛型算法并不是直接对容器操作，泛型算法使用一种称为迭代器的中介。</li>
+<li>STL算法：非修改顺序算法，搜索算法，比较算法，工具算法，修改序列算法，操作算法，交换算法，分区算法，排序算法，二叉树算法，集合算法，堆算法，最大/小值算法，数值处理算法，置换算法，选择算法，</li>
+<li>STL缺乏的内容和不支持的功能：<br>1.在通过线程同时访问容器时，STL不能保证任何线程安全<br>2.STL没有提供任何泛型的树结构或图结构。</li>
+</ul>
+
+                
+<p class="pink-link-context">
+    <a href="/2016/12/25/《C++高级编程》读书笔记/16.理解容器与迭代器/" rel="next" title="16.理解容器与迭代器">
+    上一篇：16.理解容器与迭代器
+  </a>
+</p>
+
+
+
+<p class="pink-link-context">
+    <a href="/2016/12/25/《C++高级编程》读书笔记/14.C++运算符重载/" rel="next" title="14.C++运算符重载">
+    下一篇：14.C++运算符重载
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
 
 
     <section id="comment">
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/reading/index.html';
-                this.page.identifier = 'reading/index.html';
+                this.page.url = 'http://yoursite.com/2016/12/25/《C++高级编程》读书笔记/15.C++标准库概述/';
+                this.page.identifier = '2016/12/25/《C++高级编程》读书笔记/15.C++标准库概述/';
             };
             (function() {
                 var d = document,
@@ -409,7 +353,7 @@
     </section>
 
 
-    
+
 </div>
 
         <div class="fixed-action-btn float-sitemap">

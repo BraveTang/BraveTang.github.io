@@ -7,13 +7,19 @@
 
     
 
-    <title>读书 | </title>
+    <title>18.字符串本地化与正则表达式 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#本地化
+
+本地化的一个关键点在于绝不能在源代码中放置任何母语的字符串字面量，除非面向开发人员的调试字符串。
+C++中有一个内建类型wchar_t,可以保存宽字符。需要在字符串和字符字面量前面加上L,表示使用宽字符编码。
+使用char16_t和char32_t而不是wchar_t的好处在与char1">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="读书"/>
+    <meta property="og:title" content="18.字符串本地化与正则表达式"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -214,186 +220,118 @@
 
 
     <main>
+        <div class="container main-container">
+    <nav class="page-nav hide-on-small-only">
+    <div class="nav-wrapper indigo">
+        <span class="breadcrumb">当前位置（分类目录）</span>
         
-
-<div class="container main-container">
+            
     
-        <div class="">
-            <div class="row">
-                <ul class="tabs ">
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#readed">已读(3)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#reading">在读(1)</a>
-                        </li>
-                    
-                        <li class="tab col s4 ">
-                            <a class="pink-text " href="#wanted">想读(1)</a>
-                        </li>
-                    
-                </ul>
-            </div>
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-Plus-Plus高级编程/">C Plus Plus高级编程</a>
 
-            
-                <div id="readed" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s23139051.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">众妙之门：网站UI设计之道
-                                    </span>
-                                    <p>评分: 7
-                                        <a class="external-link right" href="http://book.douban.com/subject/20281463/" target="_blank">
 
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>推荐非UI人士了解UI阅读。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img5.douban.com/lpic/s11337059.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript模式
-                                    </span>
-                                    <p>评分: 8.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11506062/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>书很薄，但内容相当实用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img3.douban.com/lpic/s11373174.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">JavaScript语言精粹
-                                    </span>
-                                    <p>评分: 9.5
-                                        <a class="external-link right" href="http://book.douban.com/subject/11874748/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p>这是一本前端人员的基础书，强烈推荐阅读，而且越早看受益越多！</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="reading" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s27881888.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">网络游戏核心技术与实战
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/25850090/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-                <div id="wanted" class="row" style="margin-top: 20px;">
-                    
-                    
-                        <div class="book-item col s12 m6">
-                            <div class="card small hoverable">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img class="card-cover-image activator" src="http://img4.douban.com/lpic/s1113106.jpg">
-                                </div>
-                                <div class="card-content pink-link-context">
-                                    <span class="card-title truncate activator grey-text text-darken-4">计算机程序的构造和解释
-                                    </span>
-                                    <p>评分: ???
-                                        <a class="external-link right" href="http://book.douban.com/subject/1148282/" target="_blank">
-
-                                            <i class="fa fa-external-link"></i>
-                                        </a>
-                                    </p>
-                                </div>
-
-                                <div class="card-reveal">
-                                    <span class="card-title grey-text text-darken-4">简评
-                                        <i class="fa fa-times-circle-o right"></i>
-                                    </span>
-
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                </div>
-            
-
-        </div>
         
+
+        
+    </div>
+</nav>
+
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>18.字符串本地化与正则表达式</h1>
+    
+
+
+            </div>
+            <time class="pink-link-context" datetime="2016-12-26T14:07:16.000Z"><a href="/2016/12/26/《C++高级编程》读书笔记/18.字符串本地化与正则表达式/">2016-12-26</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
+        
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
+        
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>#本地化</p>
+<ul>
+<li>本地化的一个关键点在于绝不能在源代码中放置任何母语的字符串字面量，除非面向开发人员的调试字符串。</li>
+<li>C++中有一个内建类型wchar_t,可以保存宽字符。需要在字符串和字符字面量前面加上L,表示使用宽字符编码。</li>
+<li>使用char16_t和char32_t而不是wchar_t的好处在与char16_t的大小至少16位，char32_t的大小至少32位。他们的大小和编译器无关，而wchar_t不能保证最小的大小。</li>
+<li>在使用I/O流是，根据特定的local对数据进行格式化。</li>
+<li>大部分操作系统都提供 一种根据用户定义判断local的机制。</li>
+</ul>
+<p>#正则表达式</p>
+<ul>
+<li>正则表达式中任何字符都表示匹配自己，但：^ $ \ . * + ? ( ) [ ] { } | 除外。如果需要匹配这些特殊字符需要通过\字符转义。</li>
+<li>特殊字符^和$称为锚点。^字符匹配行终止符前面的位置，$字符匹配行终止符的位置。</li>
+<li>通配字符.可用于匹配处理换行字符外的任意字符。</li>
+<li>|字符表示”或”的关系，例如，a|b表示a或b.</li>
+<li>()用于标记子表达式，称为捕捉组。</li>
+<li><ul>
+<li><ul>
+<li>？{…} 可用重复匹配正则表达式的部分模式。这些重复匹配字符称为贪婪匹配，因为这些字符找出最长的匹配，但仍匹配正则表达式的其余部分，在重复字符后面加一个?可实现非贪婪匹配。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>正则表达式元素的优先级：元素，量词，串联，替代符。</li>
+<li>[…]可以匹配…中的任一字符。</li>
+<li>原始字符串以R”(开头，以)”结束。开头和结尾之间的所有内容都是正则表达式。</li>
+<li><regex>提供3个关键算法：regex_match(),regex_search(),regex_replace(),可使用任何具有双向迭代行为的迭代器。</regex></li>
+<li>regex_iterator,regex_token_iterator适合查找源字符串中的所有模式。</li>
+<li>绝对不要通过临时regex对象创建regex_iterator或regex_token_iterator.</li>
+</ul>
+
+                
+<p class="pink-link-context">
+    <a href="/2016/12/27/《C++高级编程》读书笔记/19.其他工具库/" rel="next" title="19.其他工具库">
+    上一篇：19.其他工具库
+  </a>
+</p>
+
+
+
+<p class="pink-link-context">
+    <a href="/2016/12/26/《C++高级编程》读书笔记/17.掌握STL算法/" rel="next" title="17.掌握STL算法">
+    下一篇：17.掌握STL算法
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
 
 
     <section id="comment">
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/reading/index.html';
-                this.page.identifier = 'reading/index.html';
+                this.page.url = 'http://yoursite.com/2016/12/26/《C++高级编程》读书笔记/18.字符串本地化与正则表达式/';
+                this.page.identifier = '2016/12/26/《C++高级编程》读书笔记/18.字符串本地化与正则表达式/';
             };
             (function() {
                 var d = document,
@@ -409,7 +347,7 @@
     </section>
 
 
-    
+
 </div>
 
         <div class="fixed-action-btn float-sitemap">
