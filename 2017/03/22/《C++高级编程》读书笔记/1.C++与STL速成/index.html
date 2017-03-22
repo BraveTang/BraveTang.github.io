@@ -7,13 +7,19 @@
 
     
 
-    <title>归档：2017 | </title>
+    <title>1.C++与STL速成 | </title>
     <meta name="author" content="Brave Tang">
+    
+    <meta name="description" content="#C++基础知识
+
+在C中，被包含的头文件以.h结尾，C++中标准库中头文件省略了这后缀，C的标准库在C++仍然存在，但换了新名字。如变成了
+强制类型转换eg: int 3 = static_cast(myFoalt); 是C++中最复杂，最整洁的推荐方法。
+枚举类型是一个整数值；强类型枚举 enu">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="1.C++与STL速成"/>
     <meta property="og:site_name" content="BraveTang&#39;s blog"/>
 
     
@@ -178,7 +184,15 @@
 
             <li class="collapse-level-0" collapse-level="0">
                 <a class="no-padding" href="/categories/读书笔记/">
-                    读书笔记 <span class="right">1 篇</span></a>
+                    读书笔记 <span class="right">2 篇</span></a>
+                </a>
+            </li>
+
+        
+
+            <li class="collapse-level-1" collapse-level="1">
+                <a class="no-padding" href="/categories/读书笔记/C-高级编程/">
+                    C-高级编程 <span class="right">1 篇</span></a>
                 </a>
             </li>
 
@@ -207,46 +221,135 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置（归档）</span>
+        <span class="breadcrumb">当前位置（分类目录）</span>
+        
+            
+    
+    
+    <a class="breadcrumb" href="/categories/读书笔记/">读书笔记</a><a class="breadcrumb" href="/categories/读书笔记/C-高级编程/">C++高级编程</a>
+
+
         
 
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>1.C++与STL速成</h1>
+    
 
 
-    <ul class="collapsible mt-0" data-collapsible="accordion">
+            </div>
+            <time class="pink-link-context" datetime="2017-03-22T11:38:48.000Z"><a href="/2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/">2017-03-22</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
         
+            <a href="/tags/C/" class="chip pink lighten-1">C++</a>
         
-            <li>
-                <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2017
-                </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        
-                            <a href="/2017/03/22/test-hexo/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2017-03-21T16:46:44.000Z">2017-03-22</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                test hexo
-                            </a>
-                        
-                            <a href="/2017/03/21/hello-world/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2017-03-21T15:42:02.000Z">2017-03-21</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                Hello World
-                            </a>
-                        
-                    </div>
-                </div>
-            </li>
-        
-    </ul>
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <p>#C++基础知识</p>
+<ul>
+<li>在C中，被包含的头文件以.h结尾，C++中标准库中头文件省略了这后缀，C的标准库在C++仍然存在，但换了新名字。如<stdio.h>变成了<cstdio></cstdio></stdio.h></li>
+<li>强制类型转换eg: int 3 = static_cast<int>(myFoalt); 是C++中最复杂，最整洁的推荐方法。</int></li>
+<li>枚举类型是一个整数值；强类型枚举 enum class 是类型安全的。</li>
+<li>C++ 中利用 std::array 代替数组优点：它总是知道自身大小，不会自动转换为指针，具有迭代器，方便变量元素。</li>
+<li>C风格的数组及std::array 是固定固定大小的，编译的时候就固定下来了，要数组的大小是动态的，使用std:vector。</li>
+<li>基于区间的for循环允许方便的迭代容器中的元素，用于数组，初始化列表，具有返回的begin()和end()函数的类型。</li>
+<li>函数声明通常称为“函数原型”或“签名”，以强调这代表函数的访问方式，而不是具体代码。</li>
+<li>每个函数都有一个预定于的局部变量<strong>func</strong>,可以将这个用于日志。</li>
+<li>替代的函数语法 auto func(int i ) -&gt; int {return i +2;} 函数的返回类型不再位于开头，而放到行尾-&gt;后，调用不变。</li>
+<li>auto 用途：编译时自动判断变量类型；替代函数语法；函数返回类型推断；用于通用lambda表达式。</li>
+<li>decltype 把表达式作为实参，计算出该表达式的类型。</li>
+</ul>
+<p>#深入研究C++</p>
+<ul>
+<li>C++中内存分为堆栈和堆。堆栈上分配内存的变量自动释放，堆是与当前函数或堆栈帧完全没有关系的内存去区域，如果想在函数调用结束仍然保留其中的声明的变量，可将变量放到堆中，程序可以任何时候向堆中添加或修改中已有的位，必须确保释放在堆上分配的任何内存，这个过程不会自动完成，除非使用智能指针。</li>
+<li>任何时候应避免使用位初始化的变量，尤其是未初始化的指针，它会指向内存中的每个随意位置，使程序崩溃。不希望分配内存，可初始化为空指针nullptr.</li>
+<li>使用完动态内存，用delete操作释放内存，为防止在释放指针指向的内存后再使用指针，建议把指针设置设置为nullptr.</li>
+<li>对null或为初识化的指针解除引用会导致程序崩溃。</li>
+<li>避免使用<strong>maclloc()</strong>和<strong>free()</strong>，而使用<strong>new</strong>和 <strong>delete</strong>,或 <strong>new[]</strong>和<strong>delete[]</strong>,并且保证成对出现，避免内存泄露。</li>
+<li>C++提供3钟智能能指针<strong>std::uique_ptr</strong>、<strong>std::shared_ptr</strong>、<strong>std::wedk_ptr</strong>。<blockquote>
+<p>uiquie_ptr超出作用域时，会自动释放内存和资源。<br>shared_ptr允许数据的分布式所有权，每次指定shared_ptr是，都递增引用计数，超出作用域时，就递减引用计数。当计数为0时就表示数据不再有任何拥有者，于是释放指针引用的对象。<br>weak_ptr 可以观察 shared_ptr,而不会递增或递减锁连接的shered_ptr的引用计数</p>
+</blockquote>
+</li>
+<li>利用decltype(auto) 来推断表达式的类型，就不需要引用限定符合和const限定符了，且解决代码重复的问题</li>
+</ul>
+<p>#作为面向对象语言的C++</p>
+<ul>
+<li>推荐把所有数据类型声明为prviate,在需要时，通过public读取器和设置器来访问他们。</li>
+<li>为了遵循const-correctness原则，最好将不改变对象的任何数据成员的成员函数声明为const,相对于非const成员函数“修改器”，这些成员函数成为”检测器”。</li>
+<li>对象的创建可以基于堆栈方式，也可以基于堆的方式。</li>
+<li>尽量使用STL标准库的类来解决问题。</li>
+</ul>
+<p>#第一个有用的C++程序</p>
+<ul>
+<li>#pragma once 以防止文件被多次包含。</li>
+<li>当类中存在获取器时，使用获取器是一种好的风格，甚至在类的内部也是如此。</li>
+</ul>
+
+                
+
+
+<p class="pink-link-context">
+    <a href="/2017/03/22/test-hexo/" rel="next" title="test hexo">
+    下一篇：test hexo
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
+
+
+    <section id="comment">
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function() {
+                this.page.url = 'http://yoursite.com/2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/';
+                this.page.identifier = '2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/';
+            };
+            (function() {
+                var d = document,
+                    s = d.createElement('script');
+                s.src = '//Brave Tang&#39;s world.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+        </noscript>
+    </section>
+
 
 
 </div>

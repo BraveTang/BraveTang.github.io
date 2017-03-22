@@ -1,0 +1,1907 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"an",
+				"anAmount"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"ret",
+				"return	(BaseGameController.cs)"
+			],
+			[
+				"Rigibo",
+				"Rigidbody"
+			],
+			[
+				"Trans",
+				"Transform"
+			],
+			[
+				"Mo",
+				"MonoBehaviour	(BaseGameController.cs)"
+			],
+			[
+				"Unit",
+				"UnityEngine	(BaseGameController.cs)"
+			],
+			[
+				"Lo",
+				"LoadLevel"
+			],
+			[
+				"lev",
+				"levelName"
+			],
+			[
+				"SceneMan",
+				"SceneManager	(BaseGameController.cs)"
+			],
+			[
+				"Scen",
+				"SceneManagement	(BaseGameController.cs)"
+			],
+			[
+				"Update",
+				"MonoBehaviour.Update()"
+			],
+			[
+				"uin",
+				"ul_single	(Markdown (Standard).sublime-settings)"
+			],
+			[
+				"getChild",
+				"getBt:getChildByName	(HuoDongPopView.lua)"
+			],
+			[
+				"_task",
+				"_taskListPanel_t"
+			],
+			[
+				"ju",
+				"jumpType"
+			],
+			[
+				"e",
+				"end"
+			],
+			[
+				"in",
+				"index	(SweepCompletePopView.lua)"
+			],
+			[
+				"_Pane",
+				"_Panel_jie_shao_t"
+			],
+			[
+				"fal",
+				"flag	(ActivityData.lua)"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"_Pan",
+				"_Panel_jie_shao_t"
+			],
+			[
+				"_pa",
+				"_Panel_all_t"
+			],
+			[
+				"_ev",
+				"_ListView_Every_day_t"
+			],
+			[
+				"tem",
+				"tempParam"
+			],
+			[
+				"_cheng",
+				"_Panel_cheng_zhang_t"
+			],
+			[
+				"_yue",
+				"_Panel_yue_ka_text_t"
+			],
+			[
+				"_ch",
+				"_Sprite_cheng_zhang_t"
+			],
+			[
+				"_ON",
+				"_Panel_online_reward_t"
+			],
+			[
+				"_lo",
+				"_Panel_30day_login_t"
+			],
+			[
+				"_sanc",
+				"_Panel_san_can_t"
+			],
+			[
+				"_chon",
+				"_Panel_chong_zhi_huo_dong_t"
+			],
+			[
+				"_Panel_s",
+				"_Panel_signReward_t"
+			],
+			[
+				"_pan",
+				"_Panel_onlineReward_t"
+			],
+			[
+				"Panl",
+				"Panel_loginReward"
+			],
+			[
+				"err",
+				"errInf"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ite",
+				"itemData"
+			],
+			[
+				"it",
+				"itemData"
+			],
+			[
+				"priz",
+				"prizeTable"
+			],
+			[
+				"mer",
+				"mergeData"
+			],
+			[
+				"Sw",
+				"SweepCompletePopView"
+			],
+			[
+				"Task",
+				"TaskViewController"
+			],
+			[
+				"_ac",
+				"_achieveListPanel_t"
+			],
+			[
+				"未",
+				"未上榜"
+			],
+			[
+				"sell",
+				"sellBt"
+			],
+			[
+				"_equi",
+				"_equipInfPanel_t"
+			],
+			[
+				"min",
+				"ming"
+			],
+			[
+				"hero",
+				"heroInfo"
+			],
+			[
+				"sm",
+				"smallClass"
+			],
+			[
+				"s",
+				"sum"
+			],
+			[
+				"ex",
+				"expConfig"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"ne",
+				"needExp"
+			],
+			[
+				"getheros",
+				"getHeroSoulQualityOfId"
+			],
+			[
+				"CH",
+				"ConfigHandler:getHerTypeId	(HeroViewController.lua)"
+			],
+			[
+				"qu",
+				"quality	(HeroViewController.lua)"
+			],
+			[
+				"G",
+				"G_SDKType	(config.lua)"
+			],
+			[
+				"ku",
+				"kuangView"
+			],
+			[
+				"tex",
+				"text1"
+			],
+			[
+				"_vip",
+				"_vipPanel_t"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"inf",
+				"info"
+			],
+			[
+				"RI",
+				"RIGHT	(UIActionTool.lua)"
+			],
+			[
+				"nam",
+				"nameNode"
+			],
+			[
+				"typ",
+				"typeNode"
+			],
+			[
+				"_he",
+				"_heroSoulView_t"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"emba",
+				"embattleHeroMarks"
+			],
+			[
+				"ma",
+				"marks"
+			],
+			[
+				"ad",
+				"addHeroSoulData"
+			],
+			[
+				"her",
+				"heroSoul	(languageConfig_ch.lua)"
+			],
+			[
+				"end",
+				"endPos"
+			],
+			[
+				"He",
+				"HeroSoulData.lua"
+			],
+			[
+				"heros",
+				"heroSoulInf"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"clean",
+				"cleanHeroSoulUpgradeData"
+			],
+			[
+				"heroSoul",
+				"heroSoulInf"
+			],
+			[
+				"mra",
+				"marks"
+			],
+			[
+				"buf",
+				"buffValue"
+			],
+			[
+				"_",
+				"_affirmBt_t"
+			],
+			[
+				"jum",
+				"jumpData"
+			],
+			[
+				"HeroSOu",
+				"HeroSoulPopView"
+			],
+			[
+				"Hero",
+				"HeroSoulData"
+			],
+			[
+				"hersou",
+				"heroSoulInf"
+			],
+			[
+				"_lan",
+				"_LoadingBar_2_t"
+			],
+			[
+				"cout",
+				"countExp"
+			],
+			[
+				"add",
+				"addExp"
+			],
+			[
+				"cou",
+				"countExp"
+			],
+			[
+				"init",
+				"initDisplay"
+			],
+			[
+				"HeroSOuu",
+				"HeroSoulUpgradePopView"
+			],
+			[
+				"va",
+				"valueNode"
+			],
+			[
+				"getChildByN",
+				"getChildByName"
+			],
+			[
+				"wei",
+				"widget	(ActivityHeroPopView.lua)"
+			],
+			[
+				"ki",
+				"kindHeroSoul"
+			],
+			[
+				"cc",
+				"cc.c3b	(LevelUpPopView.lua)"
+			],
+			[
+				"getheroS",
+				"getHeroSoulInf"
+			],
+			[
+				"showT",
+				"showType	(HeroSoulViewController.lua)"
+			],
+			[
+				"heroN",
+				"heroSoulName"
+			],
+			[
+				"string",
+				"string.format	(LoadingViewController.lua)"
+			],
+			[
+				"fi",
+				"filterData"
+			],
+			[
+				"heroSO",
+				"heroSoulInf"
+			],
+			[
+				"Her",
+				"HeroSoulData"
+			],
+			[
+				"p",
+				"pairs"
+			],
+			[
+				"ele",
+				"else"
+			],
+			[
+				"j",
+				"jump	(HeroShiLianViewController.lua)"
+			],
+			[
+				"HeroS",
+				"HeroSoulViewController"
+			],
+			[
+				"clena",
+				"cleanHeroSoulNode"
+			],
+			[
+				"Pr",
+				"PropViewController"
+			],
+			[
+				"_eq",
+				"_equipInfPanel_t"
+			],
+			[
+				"sh",
+				"showData"
+			],
+			[
+				"setOneKeySellE",
+				"setOneKeySellHeroSoul"
+			],
+			[
+				"updateH",
+				"updateMoneyOfHeroSoul"
+			],
+			[
+				"t",
+				"then"
+			],
+			[
+				"loadImage",
+				"loadImageWithWidget"
+			],
+			[
+				"par",
+				"param"
+			],
+			[
+				"_heros",
+				"_heroSoulInfPanel_t"
+			],
+			[
+				"_hero",
+				"_heroSoulInfPanel_t"
+			],
+			[
+				"im",
+				"imageView"
+			],
+			[
+				"imge",
+				"imageView"
+			],
+			[
+				"Co",
+				"ConfigHandler"
+			],
+			[
+				"L",
+				"LEFT	(UIActionTool.lua)"
+			],
+			[
+				"RIT",
+				"RIGHT_UP	(UIActionTool.lua)"
+			],
+			[
+				"LEF",
+				"LEFT_DOWN	(UIActionTool.lua)"
+			],
+			[
+				"R",
+				"RIGHT	(UIActionTool.lua)"
+			],
+			[
+				"start",
+				"startPos"
+			],
+			[
+				"dis",
+				"display	(XueZhanViewController.lua)"
+			],
+			[
+				"clo",
+				"close	(BasePopView.lua)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"p",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"setm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"gf",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"g",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"setgf",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdowg",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"setma",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"setmak",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"setmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pal",
+				"Package Control: List Packages"
+			],
+			[
+				"setsm",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"MarkdownEditing: Switch List Bullet Type"
+			],
+			[
+				"makr",
+				"MarkdownEditing: Fix Underlined Headers"
+			],
+			[
+				"makde",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"sed",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"makep",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"setu",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"aa",
+				"Git: Add All"
+			],
+			[
+				"set ui",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"acom",
+				"Git: Amend Commit"
+			],
+			[
+				"a",
+				"Git: Add All"
+			],
+			[
+				"neb",
+				"Git: New Branch"
+			],
+			[
+				"chang",
+				"Git: Change Branch"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"pakc",
+				"Package Control: Enable Package"
+			],
+			[
+				"u",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"setj",
+				"Set Syntax: JSON"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"uni",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"j",
+				"Set Syntax: JSON"
+			],
+			[
+				"set",
+				"Set Syntax: JSON"
+			],
+			[
+				"aco",
+				"Git: Amend Commit"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"ac",
+				"Package Control: List Packages"
+			],
+			[
+				"chag",
+				"Git: Change Branch"
+			],
+			[
+				"chagn",
+				"Git: Change Branch"
+			],
+			[
+				"CHANG",
+				"Git: Change Branch"
+			],
+			[
+				"AC",
+				"Git: Amend Commit"
+			],
+			[
+				"AD",
+				"Git: Add All"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"all",
+				"Git: Add All"
+			],
+			[
+				"q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git",
+				"Git: Stash List"
+			],
+			[
+				"ACOM",
+				"Git: Amend Commit"
+			],
+			[
+				"A",
+				"Git: Add All"
+			],
+			[
+				"Acom",
+				"Git: Amend Commit"
+			],
+			[
+				"che",
+				"Git: Checkout Tag"
+			],
+			[
+				"de",
+				"Git: Delete Branch"
+			],
+			[
+				"mer",
+				"Git: Merge Branch"
+			],
+			[
+				"ch",
+				"Git: Change Branch"
+			],
+			[
+				"chan",
+				"Git: Change Branch"
+			],
+			[
+				"st",
+				"Git: Status"
+			],
+			[
+				"cha",
+				"Git: Change Branch"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"CO",
+				"Git: Commit"
+			],
+			[
+				"ADD",
+				"Git: Add All"
+			],
+			[
+				"qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"new",
+				"Git: New Branch"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"paci",
+				"Package Control: Install Package"
+			],
+			[
+				"CH",
+				"Git: Change Branch"
+			],
+			[
+				"gith",
+				"Git: Commit history"
+			],
+			[
+				"c",
+				"Git: Commit"
+			],
+			[
+				"gitch",
+				"Git: Change Branch"
+			],
+			[
+				"gitco",
+				"Git: Commit"
+			],
+			[
+				"packain",
+				"Package Control: Install Package"
+			],
+			[
+				"Q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"",
+				"Git: Add All"
+			],
+			[
+				"gitr",
+				"Git: Commit history"
+			],
+			[
+				"GIF",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"PU",
+				"Git: Push Current Branch"
+			],
+			[
+				"C",
+				"Git: Change Branch"
+			],
+			[
+				"GIT",
+				"Git: Change Branch"
+			],
+			[
+				"puc",
+				"Git: Pull Current Branch"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"gitad",
+				"Git: Add All"
+			],
+			[
+				"gitre",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"gitadd",
+				"Git: Add..."
+			],
+			[
+				"gita",
+				"Git: Add All"
+			],
+			[
+				"Git",
+				"Git: Commit history"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pc",
+				"Package Control: List Packages"
+			],
+			[
+				"lin",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"ct",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"CT",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"P",
+				"Preferences: Browse Packages"
+			],
+			[
+				"CG",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"ctag",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"tag",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"liner",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"se",
+				"Set Syntax: Lua"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/apple/WorkSpace/BanTu/Projects/TRGE5/GameResources/yjjcq/exchange_gift.dat",
+		"/Users/apple/WorkSpace/BanTu/Projects/BanTuLuaGameFramework/LuaClient/tool/LuaUI/CodeUpdate.py",
+		"/Users/apple/WorkSpace/BanTu/Projects/BanTuLuaGameFramework/LuaClient/tool/LuaUI/makeUiCode.py",
+		"/Users/apple/WorkSpace/BanTu/Projects/BanTuLuaGameFramework/tool/LuaUI/CodeUpdate.py",
+		"/Users/apple/WorkSpace/BanTu/Projects/BanTuLuaGameFramework/LuaClient/tool/update.sh",
+		"/Users/apple/.zshrc",
+		"/Users/apple/Documents/BraveNote/BraveGameFramework/场景管理器实现.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/11.利用模板编写泛型代码.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/10.理解灵活奇特的C++.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/12.C++I:O揭秘.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/13.错误处理.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/14.C++运算符重载.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/15.C++标准库概述.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/16.理解容器与迭代器.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/17.掌握STL算法.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/18.字符串本地化与正则表达式.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/19.其他工具库.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/20.自定义和扩展STL.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/22.内存管理.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/23.多线程编程.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/24.重复利用软件工程方法.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/25.编写高效的C++程序.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/26.熟练掌握调试技术.md",
+		"/Users/apple/Documents/BraveNote/BraveGameFramework/框架的目录结构.md",
+		"/Users/apple/Documents/BraveNote/BraveGameFramework/实现lua热更新.md",
+		"/Users/apple/Documents/BraveNote/BraveGameFramework/场景管理器实现",
+		"/Users/apple/Documents/BraveNote/BraveGameFramework/数据结构介绍与节点.md",
+		"/Users/apple/WorkSpace/EclipseWorkSpace/LuaSanGuo_HK_Global_bc/build-cfg.json",
+		"/Users/apple/Documents/BraveNote/C++高级编程/6.设计可重用代码.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/4.设计专业的C++程序.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/3.使用字符串.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/1.C++与STL速成.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/2.编码风格.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/7.熟悉类和对象.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/8.掌握类和对象.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/9.揭秘继承技术.md",
+		"/Users/apple/Documents/BraveNote/C++高级编程/5. 面向对象设计.md",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Default (OSX).sublime-keymap",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/apple/Documents/BraveNote/C++高级编程/C++与STL速成.md",
+		"/Users/apple/WorkSpace/Unity3DWorkSpace/BraveGameFramework/.gitignore",
+		"/Users/apple/WorkSpace/Unity3DWorkSpace/BraveGameFramework/BraveGameFramework.sln",
+		"/Users/apple/WorkSpace/Unity3DWorkSpace/BraveGameFramework/Assets/Scripts/Base/BaseUserManager.cs",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/Users/apple/WorkSpace/Unity3DWorkSpace/BraveGameFramework/Assets/Scripts/test.cs",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/README.md",
+		"/Users/apple/WorkSpace/Unity3DWorkSpace/BraveGameFramework/Assets/Doc/BraveGameFramework develop note.md",
+		"/Users/apple/WorkSpace/Unity3DWorkSpace/BraveGameFramework/Assets/Scripts/hello.lua",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/C#/Comments.tmPreferences",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/apple/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/brave/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/brave/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/brave/Desktop/Unity3dWorkspace/BraveGameFramework/Assets/Doc/BraveGameFramework develop note.md",
+		"/Users/brave/Desktop/Unity3dWorkspace/BraveGameFramework/BraveGameFramework.sublime-project",
+		"/Users/brave/Desktop/Unity3dWorkspace/BraveGameFramework/.gitignore",
+		"/Users/brave/Desktop/Unity3dWorkspace/BraveGameFramework/Assets/.gitignore",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/NetWork.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/xueZhanSystem/XueZhanViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/baseMVC/BaseViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/tool/update.sh",
+		"/Users/brave/Library/Application Support/Sublime Text 3/Packages/iTunes/iTunes.sublime-settings",
+		"/Users/brave/Desktop/Misterioso.itermcolors",
+		"/Users/brave/Desktop/EclipseWorkSpace/LuaSanGuo_CH/assets/src/app/ui/loadingSystem/LoadingViewController.luac",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/cocos/cocos2d/functions.lua",
+		"/Users/brave/Desktop/EclipseWorkSpace/LuaSanGuo_HK/assets/src/app/gameData/Qstore_VipData.luac",
+		"/Users/brave/Desktop/EclipseWorkSpace/LuaSanGuo_HK/assets/src/app/sdk/PluginChannel.luac",
+		"/Users/brave/Desktop/EclipseWorkSpace/tool/fastpackge.py",
+		"/Users/brave/Desktop/EclipseWorkSpace/tool/ConfigModel/config.json",
+		"/Users/brave/Desktop/EclipseWorkSpace/tool/ConfigModel/configHead.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/UIActionTool.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/common/PromptManager.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/cocos/ui/GuiConstants.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/UIActionConst.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/GameStaticInit.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/baseMVC/BaseView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/Functions.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/server/config/public/propcalculation.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/RewardTipsPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/HeroSoulInfPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/UseExpCardPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/HelpPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/gameData/HeroShiLianData.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/EnlistThreePopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/OnlineRewardPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/ActivityHeroPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/config.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/Gplay_NativeUtil.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/gameData/Gplay_VipData.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/gameData/Qstore_VipData.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/gameData/PropData.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/languageConfig_ch.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/languageConfig_hk.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/XueZhanAttrPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/baseMVC/BasePopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/PayPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/languageConfig_hr.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/SweepCompletePopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/Astore_NativeUtil.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/NativeUtil.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/Qstore_NativeUtil.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/gameData/GameState.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/GameInit.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/ResConfig_tyj.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/common/GuideManager.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/chengJiuSystem/ChengJiuViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/GuideConfig.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/heroSoulSystem/HeroSoulViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/HeroUpgradePopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/mainSystem/MainViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/SquadPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/equipmentSystem/EquipmentViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/EquipmentPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/EquipmentInfPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/equipmentSystem/EquipmentView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/configs/GloableEnum.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/popViews/GameSetPopView.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/ui/embattleSystem/EmbattleViewController.lua",
+		"/Users/brave/Desktop/CH/LuaClient/LuaSanGuo_CH/src/app/gameData/EmbattleData.lua"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/brave/Desktop/svn/LuaClient/LuaSanGuo/",
+			"/Users/brave/Desktop/svn/LuaClient/LuaSanGuo/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"xmlTest1File",
+			"skills",
+			"Skills",
+			"template <class T>",
+			"template<>",
+			"strTo",
+			"template <class T>",
+			"MiniMap",
+			"GoodAttr",
+			"CURRENT_GAME_ROOT_CH",
+			"Src_dir",
+			"Update_dir",
+			"getPlistOfCsb",
+			"CSB_PATH",
+			"CURRENT_GAME_ROOT_CH",
+			"mall",
+			"shared_ptr",
+			"toggle_comment",
+			"\",\n",
+			"ActivityData",
+			"taskChengJiuFalg",
+			"ChengJiuBz",
+			"ChengJiuBZ",
+			"taskRewardFalg",
+			"updateTaskActiveValue",
+			"taskRewardFalg",
+			"fuLiDataBZ",
+			"YueKaBZ",
+			"taskRewardFalg",
+			"taskChengJiuFalg",
+			"fuLiDataBZ",
+			"taskChengJiuFalg",
+			"_taskBt_t",
+			"ChengJiuBZ",
+			"_selectTable_t",
+			"taskListPanel",
+			"_taskListPanel_t",
+			"ActivityData.eventAttr.ChengJiuBZ",
+			"bindFlag",
+			"ChengJiuBZ",
+			"eventAtrr",
+			"ChengJiuBZ",
+			"Panel_task",
+			"self._ScrollView_title_t:getChildByTag(i):getChildByName(\"flag\")",
+			"bindShowFlag",
+			"_taskListPanel_t",
+			"updateTaskActiveValue",
+			"taskRewardFalg",
+			"selectG",
+			"updateCJRewardFlag",
+			"”",
+			"“",
+			"，",
+			"language_Enlist_13",
+			"=",
+			"\"]=\"",
+			"onFulibtClick",
+			"nodeData",
+			"createPrizeNode",
+			"guide_101_1",
+			"guidClassCard",
+			"Button_jin_jie",
+			"guide_4_29",
+			"哇，是小乔啊",
+			"获得的碎片存放在武将碎片里",
+			"level",
+			"language_vip_bubble",
+			"delayCallHandler",
+			"end",
+			"tipPanel2View",
+			"openSpeakerPrompt",
+			"tipInfoPaenl",
+			"openBubblePrompt",
+			"getBubblePanel",
+			"251",
+			"finishGuide()",
+			"Button_shengji",
+			"Button_shengji_1",
+			") ",
+			"submitLoginGameRole",
+			"submitLoginGameRole(\"4\")",
+			"GameState.userCreateTime",
+			"userCreateTime",
+			"tostring(GameState.userCreateTime)",
+			"onBackbtClick",
+			"backBt",
+			"guide_4_24",
+			"list",
+			"guid",
+			"                           ",
+			"这次就选他吧",
+			"bind",
+			"onPanel1",
+			"onHerolistbtClick",
+			"hero",
+			"PlayerData.eventAttr.m_guideIndex ",
+			"m_guideIndex",
+			"m_newGuildIndex",
+			"新手引导",
+			"isGuideState",
+			"1003",
+			"guild",
+			"_Text_Countdown_t",
+			"embattleBt",
+			"    -- --打开士兵培养\n",
+			"embattleBt",
+			"PlayerData.eventAttr.m_guideId",
+			"PlayerData.eventAttr.m_guideId ",
+			"finishGuide",
+			"m_guideId",
+			"新手",
+			"guil",
+			"guild",
+			"新手",
+			"guild",
+			"combatInfo.littleLevel",
+			"PlayerData.eventAttr.m_guideId",
+			"修复注销战斗力Bug",
+			"g_isSdkLogout",
+			"PluginChannel.isSdkLogout ",
+			"EnterGame",
+			"isSdkLogout",
+			"self.isSdkLogout",
+			"sdkLogout",
+			"isSdkLogout",
+			"sdkLogout",
+			"isSdkLogout",
+			"self.isSdkLogout"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"金幣",
+			"",
+			"\"",
+			"TaskData.eventAttr.activeValue",
+			"SevenStarData.heroMark",
+			"GameCtlManager",
+			"heroShiLianInfo",
+			"heroShiLianInf",
+			"HeroShiLianData",
+			"self.Itype",
+			"PartHeroMark",
+			"EmbattleData.EmbattleInf",
+			"EmbattleData.EmbattleInf.MainHero",
+			"selctedSoldierFlag",
+			"selctedSoldierType"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 107.0
+	},
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"TowerDefenseBase/game/unit/Skills.h"
+			],
+			[
+				"u",
+				"TowerDefenseBase/game/unit/Unit.h"
+			],
+			[
+				"sill",
+				"TowerDefenseBase/game/unit/Skills.cpp"
+			],
+			[
+				"si",
+				"ml/Singlton.h"
+			],
+			[
+				"repidjs",
+				"TowerDefenseBase/online/RapidJson.h"
+			],
+			[
+				"10",
+				"C++高级编程/10.理解灵活奇特的C++.md"
+			],
+			[
+				"a",
+				"Scripts/ConstDefine/AppConst.cs"
+			],
+			[
+				"m",
+				"Lua/Main.lua"
+			],
+			[
+				"cus",
+				"Editor/CustomSettings.cs"
+			],
+			[
+				"gam",
+				"Scripts/Manager/GameManager.cs"
+			],
+			[
+				"ma",
+				"Lua/Main.lua"
+			],
+			[
+				"us",
+				"Scripts/Base/BaseUserManager.cs"
+			],
+			[
+				"user",
+				"Scripts/Base/BaseUserManager.cs"
+			],
+			[
+				"ex",
+				"Scripts/Base/ExtendedCustomMonoBehavior.cs"
+			],
+			[
+				"se",
+				"Scripts/Base/SceneManager.cs"
+			],
+			[
+				"basg",
+				"Scripts/Base/BaseGameController.cs"
+			],
+			[
+				"bas",
+				"Scripts/Base/BaseInputController.cs"
+			],
+			[
+				"not",
+				"Doc/BraveGameFramework develop note.md"
+			],
+			[
+				"test",
+				"Scripts/test.cs"
+			],
+			[
+				"tes",
+				"Scripts/test.cs"
+			],
+			[
+				"bra",
+				"Doc/BraveGameFramework develop note.md"
+			],
+			[
+				"b",
+				"Doc/BraveGameFramework develop note.md"
+			],
+			[
+				"tas",
+				"app/gameData/TaskData.lua"
+			],
+			[
+				"tasda",
+				"app/gameData/TaskData.lua"
+			],
+			[
+				"tasv",
+				"app/ui/taskSystem/TaskViewController.lua"
+			],
+			[
+				"ac",
+				"app/gameData/ActivityData.lua"
+			],
+			[
+				"f",
+				"app/common/Functions.lua"
+			],
+			[
+				"fu",
+				"app/common/Functions.lua"
+			],
+			[
+				"task",
+				"app/gameData/TaskData.lua"
+			],
+			[
+				"huod",
+				"app/ui/popViews/HuoDongPopView.lua"
+			],
+			[
+				"taskv",
+				"app/ui/taskSystem/TaskViewController.lua"
+			],
+			[
+				"log",
+				"app/ui/loginSystem/LoginViewController.lua"
+			],
+			[
+				"ser",
+				"app/configs/ServerConfig.lua"
+			],
+			[
+				"selgi",
+				"app/ui/popViews/SelectGirlPopView.lua"
+			],
+			[
+				"chang",
+				"cocos/cocosdenshion/AudioEngine.lua"
+			],
+			[
+				"lo",
+				"app/ui/loginSystem/LoginViewController.lua"
+			],
+			[
+				"cheng",
+				"app/ui/chengJiuSystem/ChengJiuViewController.lua"
+			],
+			[
+				"lang",
+				"app/configs/languageConfig_ch.lua"
+			],
+			[
+				"csb",
+				"app/configs/server/config/public/csbaseconfig.lua"
+			],
+			[
+				"con",
+				"config.lua"
+			],
+			[
+				"login",
+				"app/ui/loginSystem/LoginViewController.lua"
+			],
+			[
+				"new",
+				"app/common/NetWork.lua"
+			],
+			[
+				"l",
+				"app/ui/loginSystem/LoginViewController.lua"
+			],
+			[
+				"conf",
+				"config.lua"
+			],
+			[
+				"cs",
+				"app/configs/server/config/public/csbaseconfig.lua"
+			],
+			[
+				"stud",
+				"app/configs/StudioResConfig.lua"
+			],
+			[
+				"mav",
+				"app/ui/mainSystem/MainViewController.lua"
+			],
+			[
+				"gu",
+				"app/configs/GuideConfig.lua"
+			],
+			[
+				"rewti",
+				"app/ui/popViews/RewardTipsPopView.lua"
+			],
+			[
+				"hero",
+				"app/ui/heroSystem/HeroViewController.lua"
+			],
+			[
+				"her",
+				"app/ui/heroSystem/HeroViewController.lua"
+			],
+			[
+				"gui",
+				"app/configs/GuideConfig.lua"
+			],
+			[
+				"load",
+				"app/ui/loadingSystem/LoadingViewController.lua"
+			],
+			[
+				"astor",
+				"app/common/Astore_NativeUtil.lua"
+			],
+			[
+				"na",
+				"app/common/NativeUtil.lua"
+			],
+			[
+				"prm",
+				"app/ui/common/PromptManager.lua"
+			],
+			[
+				"vc",
+				"app/baseMVC/ViewControllerManager.lua"
+			],
+			[
+				"prom",
+				"app/ui/common/PromptManager.lua"
+			],
+			[
+				"chat",
+				"app/ui/popViews/ChatPopView.lua"
+			],
+			[
+				"la",
+				"app/configs/languageConfig_ch.lua"
+			],
+			[
+				"plat",
+				"app/gameData/PlayerData.lua"
+			],
+			[
+				"langc",
+				"app/configs/languageConfig_ch.lua"
+			],
+			[
+				"lagn",
+				"app/configs/languageConfig_hk.lua"
+			],
+			[
+				"starv",
+				"app/ui/sevenStarSystem/SevenStarViewController.lua"
+			],
+			[
+				"comw",
+				"app/ui/common/CommonWidgets.lua"
+			],
+			[
+				"maiv",
+				"app/ui/mainSystem/MainViewController.lua"
+			],
+			[
+				"pm",
+				"app/ui/common/PromptManager.lua"
+			],
+			[
+				"sel",
+				"app/ui/selectHeroSystem/SelectHeroViewController.lua"
+			],
+			[
+				"heros",
+				"app/ui/heroSoulSystem/HeroSoulViewController.lua"
+			],
+			[
+				"s",
+				"app/configs/ServerConfig.lua"
+			],
+			[
+				"pl",
+				"app/sdk/PluginChannel.lua"
+			],
+			[
+				"p",
+				"app/gameData/PlayerData.lua"
+			],
+			[
+				"comou",
+				"app/ui/popViews/CombatOverPopView.lua"
+			],
+			[
+				"pla",
+				"app/gameData/PlayerData.lua"
+			],
+			[
+				"card",
+				"app/ui/popViews/CardInfoPopView.lua"
+			],
+			[
+				"enh",
+				"app/ui/popViews/EnhanceOnePopView.lua"
+			],
+			[
+				"any",
+				"app/common/AnySdk_NativeUtil.lua"
+			],
+			[
+				"gamestate",
+				"app/gameData/GameState.lua"
+			],
+			[
+				"plauy",
+				"app/gameData/Player.lua"
+			],
+			[
+				"mim",
+				"app/ui/minFbSelectSystem/MinFbSelectViewController.lua"
+			],
+			[
+				"co",
+				"app/ui/combatSystem/CombatViewController.lua"
+			],
+			[
+				"comba",
+				"app/ui/popViews/CombatOverPopView.lua"
+			],
+			[
+				"herov",
+				"app/ui/heroSystem/HeroViewController.lua"
+			],
+			[
+				"play",
+				"app/gameData/PlayerData.lua"
+			],
+			[
+				"min",
+				"app/ui/minFbSelectSystem/MinFbSelectViewController.lua"
+			],
+			[
+				"com",
+				"app/ui/combatSystem/CombatViewController.lua"
+			],
+			[
+				"cardin",
+				"app/ui/popViews/CardInfoPopView.lua"
+			],
+			[
+				"ehancto",
+				"app/ui/popViews/EnhanceTwoPopView.lua"
+			],
+			[
+				"enha",
+				"app/ui/popViews/EnhanceOnePopView.lua"
+			],
+			[
+				"he",
+				"app/ui/heroSystem/HeroViewController.lua"
+			],
+			[
+				"shov",
+				"app/ui/shopSystem/ShopViewController.lua"
+			],
+			[
+				"equ",
+				"app/ui/equipmentSystem/EquipmentViewController.lua"
+			],
+			[
+				"comb",
+				"app/ui/popViews/CombatOverPopView.lua"
+			],
+			[
+				"cambat",
+				"app/ui/combatSystem/CombatViewController.lua"
+			],
+			[
+				"gin",
+				"app/common/GameInit.lua"
+			],
+			[
+				"gameset",
+				"app/ui/popViews/GameSetPopView.lua"
+			],
+			[
+				"guic",
+				"app/configs/GuideConfig.lua"
+			],
+			[
+				"soldiersviewcontroller",
+				"app/ui/soldiersSystem/SoldiersViewController.lua"
+			],
+			[
+				"chatv",
+				"app/ui/popViews/ChatPopView.lua"
+			],
+			[
+				"spellc",
+				"app/ui/combatSystem/controller/SpellController.lua"
+			],
+			[
+				"spi",
+				"app/ui/combatSystem/model/SpellPiece.lua"
+			],
+			[
+				"huo",
+				"app/ui/popViews/HuoDongPopView.lua"
+			],
+			[
+				"eq",
+				"app/ui/equipmentSystem/EquipmentViewController.lua"
+			],
+			[
+				"emb",
+				"app/ui/embattleSystem/EmbattleViewController.lua"
+			],
+			[
+				"euqmv",
+				"app/ui/equipmentSystem/EquipmentViewController.lua"
+			],
+			[
+				"basevi",
+				"app/baseMVC/BaseViewController.lua"
+			],
+			[
+				"basepop",
+				"app/baseMVC/BasePopView.lua"
+			],
+			[
+				"enlistthreepopview",
+				"app/ui/popViews/EnlistThreePopView.lua"
+			],
+			[
+				"acti",
+				"app/ui/popViews/ActivityHeroPopView.lua"
+			],
+			[
+				"actv",
+				"app/ui/popViews/ActivityHeroPopView.lua"
+			],
+			[
+				"activ",
+				"app/ui/popViews/ActivityHeroPopView.lua"
+			],
+			[
+				"selac",
+				"app/ui/popViews/SelectActivityHeroPopView.lua"
+			],
+			[
+				"selher",
+				"app/ui/selectHeroSystem/SelectHeroViewController.lua"
+			],
+			[
+				"im",
+				"app/ui/imagePlayerSystem/ImagePlayerViewController.lua"
+			],
+			[
+				"hon",
+				"app/ui/popViews/HuoDongPopView.lua"
+			],
+			[
+				"ca",
+				"app/gameData/CarnivalData.lua"
+			],
+			[
+				"equi",
+				"app/ui/popViews/EquipEnhancePopView.lua"
+			],
+			[
+				"h",
+				"app/ui/popViews/HuoDongPopView.lua"
+			],
+			[
+				"res",
+				"app/gameData/RewardStateData.lua"
+			],
+			[
+				"tian",
+				"app/ui/tianTiSystem/TianTiViewController.lua"
+			],
+			[
+				"rew",
+				"app/gameData/RewardStateData.lua"
+			],
+			[
+				"lognre",
+				"app/ui/popViews/LoginRewardPopView.lua"
+			],
+			[
+				"logd",
+				"app/gameData/LoginData.lua"
+			],
+			[
+				"sig",
+				"app/ui/popViews/SignRewardPopView.lua"
+			],
+			[
+				"equipe",
+				"app/ui/popViews/EquipEnhancePopView.lua"
+			],
+			[
+				"propv",
+				"app/ui/propSystem/PropViewController.lua"
+			],
+			[
+				"sele",
+				"app/ui/selectHeroSystem/SelectHeroViewController.lua"
+			],
+			[
+				"gams",
+				"app/gameData/GameState.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Unity3dWorkspace/FatCat_CH/FatCat_CH.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true
+}
