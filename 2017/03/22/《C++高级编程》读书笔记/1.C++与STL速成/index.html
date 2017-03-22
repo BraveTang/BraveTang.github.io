@@ -331,23 +331,30 @@
 
 
     <section id="comment">
-        <div id="disqus_thread"></div>
-        <script>
-            var disqus_config = function() {
-                this.page.url = 'http://yoursite.com/2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/';
-                this.page.identifier = '2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/';
-            };
-            (function() {
-                var d = document,
-                    s = d.createElement('script');
-                s.src = '//Brave Tang&#39;s world.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', + new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-        </noscript>
+        <div class="card">
+            <div class="card-content">
+                <!-- Duoshuo Comment BEGIN -->
+                <div class="ds-thread" data-thread-key="2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/" data-title="1.C++与STL速成" data-url="http://yoursite.com/2017/03/22/《C++高级编程》读书笔记/1.C++与STL速成/"></div>
+
+                <script type="text/javascript">
+                    console.log(document.querySelector('.ds-thread'));
+                    var duoshuoQuery = {
+                        short_name: 'Brave Tang&#39;s Blog'
+                    };
+                    (function() {
+                        var ds = document.createElement('script');
+                        ds.type = 'text/javascript';
+                        ds.async = true;
+                        ds.src = (document.location.protocol == 'https:'
+                            ? 'https:'
+                            : 'http:') + '//static.duoshuo.com/embed.js';
+                        ds.charset = 'UTF-8';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                    })();
+                </script>
+                <!-- Duoshuo Comment END -->
+            </div>
+        </div>
     </section>
 
 
